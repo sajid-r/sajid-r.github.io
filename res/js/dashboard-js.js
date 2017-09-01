@@ -2,7 +2,7 @@ $(document).ready(showContent);
 
 var courseidReceived;
 
-var apiURL = "labsdev.knolskape.com:8081";
+var apiURL = "http://labsdev.knolskape.com:8081";
 var httpURL = "https://sajid-r.github.io";
 
 var cardTemplate = $("#scrollable-template").detach();
