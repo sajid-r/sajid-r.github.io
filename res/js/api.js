@@ -2,8 +2,8 @@ $(document).ready(docReadyStuffs);
 
 var cardTemplate = $("#course-card-template").detach();
 
-var apiURL = "http://localhost:3000";
-var httpURL = "http://localhost:8080";
+var apiURL = "labsdev.knolskape.com:8081";
+var httpURL = "https://sajid-r.github.io";
 
 var randomid = Math.floor((Math.random() * 999) + 100);
 

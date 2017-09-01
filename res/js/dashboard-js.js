@@ -2,8 +2,8 @@ $(document).ready(showContent);
 
 var courseidReceived;
 
-var apiURL = "http://localhost:3000";
-var httpURL = "http://localhost:8080";
+var apiURL = "labsdev.knolskape.com:8081";
+var httpURL = "https://sajid-r.github.io";
 
 var cardTemplate = $("#scrollable-template").detach();
 
