@@ -12,28 +12,6 @@ body {
     z-index: -10;
 }
 
-.pen-title {
-  padding: 50px 0;
-  text-align: center;
-  letter-spacing: 2px;
-}
-.pen-title h1 {
-  margin: 0 0 20px;
-  font-size: 48px;
-  font-weight: 300;
-}
-.pen-title span {
-  font-size: 12px;
-}
-.pen-title span .fa {
-  color: #33b5e5;
-}
-.pen-title span a {
-  color: #33b5e5;
-  font-weight: 600;
-  text-decoration: none;
-}
-
 /* Form Module */
 .form-module {
   position: absolute;
@@ -60,35 +38,16 @@ body {
   line-height: 30px;
   text-align: center;
 }
-.form-module .toggle .tooltip {
-  position: absolute;
-  top: 5px;
-  right: -65px;
-  display: block;
-  background: rgba(0, 0, 0, 0.6);
-  width: auto;
-  padding: 5px;
-  font-size: 10px;
-  line-height: 1;
-  text-transform: uppercase;
-}
-.form-module .toggle .tooltip:before {
-  content: '';
-  position: absolute;
-  top: 5px;
-  left: -5px;
-  display: block;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-right: 5px solid rgba(0, 0, 0, 0.6);
-}
+
 .form-module .form {
   display: none;
   padding: 40px;
 }
+
 .form-module .form:nth-child(2) {
   display: block;
 }
+
 .form-module h2 {
   margin: 0 0 20px;
   color: #33b5e5;

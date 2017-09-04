@@ -3,12 +3,15 @@ $(document).ready(docReadyStuffs);
 var cardTemplate = $("#course-card-template").detach();
 
 var apiURL = "http://labsdev.knolskape.com:8081";
-var httpURL = "https://sajid-r.github.io";
+//var httpURL = "https://sajid-r.github.io";
+var httpURL = "http://localhost:8081";
 
 var randomid = Math.floor((Math.random() * 999) + 100);
 
 function docReadyStuffs(){
     populateCourses();
+    var username = window.localStorage.getItem('UserName');
+    $('#username').text(username);
 }
 
 var populateCourses = function() {
