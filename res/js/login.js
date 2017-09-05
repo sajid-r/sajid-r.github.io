@@ -1,6 +1,6 @@
 var apiURL = "http://labsdev.knolskape.com:8081";
-//var httpURL = "https://sajid-r.github.io";
-var httpURL = "http://localhost:8081";
+var httpURL = "https://sajid-r.github.io";
+//var httpURL = "http://localhost:8081";
 // Toggle Function
 //$('.toggle').click(function(){
 //  // Switches the Icon

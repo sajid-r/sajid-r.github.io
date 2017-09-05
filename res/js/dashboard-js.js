@@ -3,8 +3,8 @@ $(document).ready(showContent);
 var courseidReceived;
 
 var apiURL = "http://labsdev.knolskape.com:8081";
-//var httpURL = "https://sajid-r.github.io";
-var httpURL = "http://localhost:8081";
+var httpURL = "https://sajid-r.github.io";
+//var httpURL = "http://localhost:8081";
 
 var cardTemplate = $("#scrollable-template").detach();
 
