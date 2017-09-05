@@ -35,7 +35,7 @@ $.ajax(settings).done(function (response) {
       }
         else{
            if(pwd === response[0].password){
-               alert("Correct credentials");
+               //alert("Correct credentials");
             window.localStorage.setItem( 'UserName', response[0].username );
             window.location.href = httpURL + "/course.html";
            } 

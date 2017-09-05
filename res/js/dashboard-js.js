@@ -50,9 +50,9 @@ function addCourse_submit(obj) {
     switch(submitid){
             case("text-submit"):
                 text = $(obj).siblings("div.half").children(".text-field")[0].value;
-                alert("Text Entered: " + text);
+                //alert("Text Entered: " + text);
                 document.getElementsByClassName("cf")[0].submit(); //form submission
-                alert($(obj).siblings("div.timediff").find('#minutes').val());
+                //alert($(obj).siblings("div.timediff").find('#minutes').val());
                 timediff = {
                     "months":$(obj).siblings("div.timediff").find('#months').val(),
                     "days":$(obj).siblings("div.timediff").find('#days').val(),
@@ -102,7 +102,7 @@ function addCourse_submit(obj) {
     //var link = document.getElementById("input-link").value;
     
     var newcontent ={"courseid":courseidReceived,"contentdesc":text,"link":link, "imageurl":img, "timediff":timediff};
-    alert("Months in Newcontent = " + newcontent.timediff.months);
+    //alert("Months in Newcontent = " + newcontent.timediff.months);
     var settings2 = {
         "async": true,
         "crossDomain": true,
